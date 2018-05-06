@@ -1,0 +1,119 @@
+.content {
+    
+    padding: 1px;
+    height: 775px; 
+	width:1000px;
+	position:absolute;
+	left:200px;
+	right:0px;
+}
+#image{
+	width:150px;
+	height:150px;
+}
+ /*permite establecer el tamoño del icono de facebook y tuiter*/
+#icono{
+width:60px;
+	height:60px;
+	}
+	
+ /*permite establecer que muestre el color de fondo de tabla de enmedio con sus respetivos colo etc*/
+#info {
+   background-color:#acc6e8; /*permite darle color a la pagina d eenmedio*/
+    height:599px; /*Hacer mas grande el hacia abajo*/
+	width:460px;     /*Hacer mas grande el hacia abajo*/
+	position:absolute;
+	left:281px;
+	top:150px;
+	
+	
+	
+}
+#cabecera{
+	background:url("IMG/banner.1.jpg");
+	height:90px;
+	width:1000px;
+	background-color:#ffff;
+	margin-left:0px;
+	
+}
+
+body{
+	margin:0;
+	padding:0;
+    border-color:#2b0603;
+	background-color:#000;
+	color:#000000;
+
+}
+.columnaderecha{
+	top:150px;
+	position:absolute;
+	width:245px;
+	color:#000000;
+	background-color:#acc6e8;
+	height:630px;
+	left:955px;/*Hacer mas grande el hacia abajo*/
+}
+
+
+.columnaizquierda{
+	position:absolute;
+	left:-550px;
+	width:245;
+	margin-left:555px;/*Hacer mas grande el hacia derecha*/
+	margin-top:60px;  /*Hacer mas grande el hacia arriba*/
+	color:#000;       /*Sirve para darle color*/
+	padding:4px;
+	background-color:#acc6e8;
+	height:621px;  /*Hacer mas grande el hacia abajo*/
+}
+
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+li {
+	margin:0;
+	float:left;
+	border:1px solid white;
+	
+}
+
+li a{
+    position:relative;
+	display:block;
+     background-color:#138D75  ;
+	color:#fff;
+	width:198px;
+	padding:10px 0px 10px 50px;
+	text-decoration:none;
+	font-weight:bold;
+	text-transform:uppercase;
+	
+}
+#menu a:hover {
+    background: url('fongo3.jpg') -47px -45px;
+img:hover{
+	opacity:1.0;
+	filter:alpha(opacity=100);
+}
+
+
+
+	}
+	/*pie de paginaa*/
+.pie{
+left:201px;
+    height:30px;
+	position:absolute;
+	width:1000px;
+	bottom:-130px;
+	text-align:center;
+	font-size:150%;
+	font:italic;
+	color:white;
+   background:#138D75  ;
+}
